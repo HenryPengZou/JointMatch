@@ -62,7 +62,7 @@ If you have any questions related to the code or the paper, feel free to email H
 
 
 ## Citation
-If you find this repository useful, please consider citing our paper:
+If you find this repository useful, please consider citing our paper 💕: 
 ```bibtex
 @inproceedings{zou-caragea-2023-jointmatch,
    title={JointMatch: A Unified Approach for Diverse and Collaborative Pseudo-Labeling to Semi-Supervised Text Classification},
