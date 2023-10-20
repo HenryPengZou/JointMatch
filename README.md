@@ -3,7 +3,7 @@
 ![Task](code/images/pipeline.jpg)
 
 This repository contains the implementation of the paper:
-> **Cheap and Quick: Efficient Vision-Language Instruction Tuning for Large Language Models** 
+> **JointMatch: A Unified Approach for Diverse and Collaborative Pseudo-Labeling to Semi-Supervised Text Classification** 
 > [[Paper]]()  <br>
 > Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023 <br>
 > Henry Peng Zou, Cornelia Caragea <br>
