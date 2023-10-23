@@ -72,7 +72,7 @@ If you find this repository helpful, please consider citing our paper 💕:
 }
 
 @inproceedings{zou-etal-2023-decrisis,
-   title={DeCrisis: A Study of Debiased Semi-Supervised Learning for Crisis Tweet Classification},
+   title={DeCrisisMB: Debiased Semi-Supervised Learning for Crisis Tweet Classification via Memory Bank},
    author={Henry Peng Zou and Yue Zhou and Weizhi Zhang and Cornelia Caragea},
    booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},
    year={2023}
