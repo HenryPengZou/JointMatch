@@ -4,7 +4,7 @@
 
 This repository contains the implementation of the paper:
 > **JointMatch: A Unified Approach for Diverse and Collaborative Pseudo-Labeling to Semi-Supervised Text Classification** 
-> [[Paper]]()  <br>
+> [[Paper]](https://arxiv.org/pdf/2310.14583.pdf) [[arXiv]](https://arxiv.org/abs/2310.14583) <br>
 > Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023 <br>
 > Henry Peng Zou, Cornelia Caragea <br>
 
