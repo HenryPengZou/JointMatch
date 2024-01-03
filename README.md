@@ -56,7 +56,7 @@ To reproduce results with varying number of labeled data, simply run:
 python panel_num_labels.py
 ```
 
-## Custome Dataset
+## Custom Dataset
 
 To customize your own datasets (generate weak and strong data aumentations), follow the demo in `data/custom_dataset/preprocess.ipynb`.
 
