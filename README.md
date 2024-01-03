@@ -86,5 +86,5 @@ If you find this repository helpful, please consider citing our paper 💕:
 ```
 
 ## Acknowledgement
-This repo borrows some data and codes from [SAT](https://github.com/declare-lab/SAT) and [USB](https://github.com/microsoft/Semi-supervised-learning). We appreciate their great works.
+This repo borrows some data and codes from [SAT](https://github.com/declare-lab/SAT) and [USB](https://github.com/microsoft/Semi-supervised-learning). We appreciate their great works. <br>
 Besides, welcome to check out our other work in semi-superivsed learning: [DeCrisisMB](https://github.com/HenryPengZou/DeCrisisMB)!
