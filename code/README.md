@@ -4,7 +4,7 @@
 
 This repository contains the implementation of the paper:
 > **JointMatch: A Unified Approach for Diverse and Collaborative Pseudo-Labeling to Semi-Supervised Text Classification** 
-> [[Paper]](https://arxiv.org/pdf/2310.14583.pdf) [[arXiv]](https://arxiv.org/abs/2310.14583) <br>
+> [[Paper]](https://aclanthology.org/2023.emnlp-main.451.pdf) [[ACL Anthology]](https://aclanthology.org/2023.emnlp-main.451/) [[OpenReview]](https://openreview.net/forum?id=ZAHyZ3CBds) [[arXiv]](https://arxiv.org/abs/2310.14583) <br>
 > Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023 <br>
 > Henry Peng Zou, Cornelia Caragea <br>
 
@@ -56,26 +56,32 @@ To reproduce results with varying number of labeled data, simply run:
 python panel_num_labels.py
 ```
 
+## Custom Dataset
+
+To customize your own datasets (generate weak and strong data augmentations), follow the demo `data/custom_dataset/preprocess.ipynb` in the [custom_dataset](https://github.com/HenryPengZou/JointMatch/tree/main/data/custom_dataset) folder.
+
 ## Bugs or Questions
 
 If you have any questions related to the code or the paper, feel free to email Henry Peng Zou (pzou3@uic.edu). If you encounter any problems when using the code, or want to report a bug, you can open an issue. Please try to specify the problem with details so we can help you better and quicker!
 
 
 ## Citation
-If you find this repository helpful, please consider citing our paper 💕:
+If you find this repository helpful, please consider citing our paper 💕: 
 ```bibtex
-@inproceedings{zou-caragea-2023-jointmatch,
-   title={JointMatch: A Unified Approach for Diverse and Collaborative Pseudo-Labeling to Semi-Supervised Text Classification},
-   author={Henry Peng Zou and Cornelia Caragea},
-   booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
-   year={2023}
+@inproceedings{zou2023jointmatch,
+  title={JointMatch: A Unified Approach for Diverse and Collaborative Pseudo-Labeling to Semi-Supervised Text Classification},
+  author={Zou, Henry and Caragea, Cornelia},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  pages={7290--7301},
+  year={2023}
 }
 
-@inproceedings{zou-etal-2023-decrisismb,
-   title={DeCrisisMB: Debiased Semi-Supervised Learning for Crisis Tweet Classification via Memory Bank},
-   author={Henry Peng Zou and Yue Zhou and Weizhi Zhang and Cornelia Caragea},
-   booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},
-   year={2023}
+@inproceedings{zou2023decrisismb,
+  title={DeCrisisMB: Debiased Semi-Supervised Learning for Crisis Tweet Classification via Memory Bank},
+  author={Zou, Henry and Zhou, Yue and Zhang, Weizhi and Caragea, Cornelia},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},
+  pages={6104--6115},
+  year={2023}
 }
 ```
 

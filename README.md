@@ -68,18 +68,20 @@ If you have any questions related to the code or the paper, feel free to email H
 ## Citation
 If you find this repository helpful, please consider citing our paper 💕: 
 ```bibtex
-@inproceedings{zou-caragea-2023-jointmatch,
-   title={JointMatch: A Unified Approach for Diverse and Collaborative Pseudo-Labeling to Semi-Supervised Text Classification},
-   author={Henry Peng Zou and Cornelia Caragea},
-   booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
-   year={2023}
+@inproceedings{zou2023jointmatch,
+  title={JointMatch: A Unified Approach for Diverse and Collaborative Pseudo-Labeling to Semi-Supervised Text Classification},
+  author={Zou, Henry and Caragea, Cornelia},
+  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+  pages={7290--7301},
+  year={2023}
 }
 
-@inproceedings{zou-etal-2023-decrisismb,
-   title={DeCrisisMB: Debiased Semi-Supervised Learning for Crisis Tweet Classification via Memory Bank},
-   author={Henry Peng Zou and Yue Zhou and Weizhi Zhang and Cornelia Caragea},
-   booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},
-   year={2023}
+@inproceedings{zou2023decrisismb,
+  title={DeCrisisMB: Debiased Semi-Supervised Learning for Crisis Tweet Classification via Memory Bank},
+  author={Zou, Henry and Zhou, Yue and Zhang, Weizhi and Caragea, Cornelia},
+  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},
+  pages={6104--6115},
+  year={2023}
 }
 ```
 
