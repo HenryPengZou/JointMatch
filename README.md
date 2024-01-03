@@ -69,21 +69,22 @@ If you have any questions related to the code or the paper, feel free to email H
 If you find this repository helpful, please consider citing our paper 💕: 
 ```bibtex
 @inproceedings{zou2023jointmatch,
-  title={JointMatch: A Unified Approach for Diverse and Collaborative Pseudo-Labeling to Semi-Supervised Text Classification},
-  author={Zou, Henry and Caragea, Cornelia},
-  booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
-  pages={7290--7301},
-  year={2023}
+    title={JointMatch: A Unified Approach for Diverse and Collaborative Pseudo-Labeling to Semi-Supervised Text Classification},
+    author={Zou, Henry and Caragea, Cornelia},
+    booktitle={Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing},
+    pages={7290--7301},
+    year={2023}
 }
 
 @inproceedings{zou2023decrisismb,
-  title={DeCrisisMB: Debiased Semi-Supervised Learning for Crisis Tweet Classification via Memory Bank},
-  author={Zou, Henry and Zhou, Yue and Zhang, Weizhi and Caragea, Cornelia},
-  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},
-  pages={6104--6115},
-  year={2023}
+    title={DeCrisisMB: Debiased Semi-Supervised Learning for Crisis Tweet Classification via Memory Bank},
+    author={Zou, Henry and Zhou, Yue and Zhang, Weizhi and Caragea, Cornelia},
+    booktitle={Findings of the Association for Computational Linguistics: EMNLP 2023},
+    pages={6104--6115},
+    year={2023}
 }
 ```
 
 ## Acknowledgement
 This repo borrows some data and codes from [SAT](https://github.com/declare-lab/SAT) and [USB](https://github.com/microsoft/Semi-supervised-learning). We appreciate their great works.
+Besides, welcome to check out our other work in semi-superivsed learning: [DeCrisisMB](https://github.com/HenryPengZou/DeCrisisMB)!
