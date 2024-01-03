@@ -58,8 +58,7 @@ python panel_num_labels.py
 
 ## Custom Dataset
 
-To customize your own datasets (generate weak and strong data aumentations), follow the demo in `data/custom_dataset/preprocess.ipynb`.
-
+To customize your own datasets (generate weak and strong data augmentations), follow the demo `data/custom_dataset/preprocess.ipynb` in the [custom_dataset](https://github.com/HenryPengZou/JointMatch/tree/main/data/custom_dataset) folder.
 
 ## Bugs or Questions
 
