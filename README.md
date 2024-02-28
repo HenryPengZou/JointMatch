@@ -8,7 +8,7 @@ This repository contains the implementation of the paper:
 > Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023 <br>
 > Henry Peng Zou, Cornelia Caragea <br>
 
-### News
+## News
 
 🔥 Welcome to check out our other work on semi-supervised learning and pseudo-label debiasing: [DeCrisisMB](https://github.com/HenryPengZou/DeCrisisMB)!
 
