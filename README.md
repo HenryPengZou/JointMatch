@@ -10,7 +10,7 @@ This repository contains the implementation of the paper:
 
 ## News
 
-🔥 Welcome to check out our other work on semi-supervised learning and pseudo-label debiasing: [DeCrisisMB](https://github.com/HenryPengZou/DeCrisisMB)!
+🌱 Welcome to check out our other work on semi-supervised learning and pseudo-label debiasing: [DeCrisisMB](https://github.com/HenryPengZou/DeCrisisMB)!
 
 
 ## Setup
