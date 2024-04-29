@@ -8,6 +8,10 @@ This repository contains the implementation of the paper:
 > Conference on Empirical Methods in Natural Language Processing (EMNLP), 2023 <br>
 > Henry Peng Zou, Cornelia Caragea <br>
 
+## News
+
+🌱 Welcome to check out our other work on semi-supervised learning and pseudo-label debiasing: [DeCrisisMB](https://github.com/HenryPengZou/DeCrisisMB)!
+
 
 ## Setup
 ### Install Package 
@@ -87,4 +91,4 @@ If you find this repository helpful, please consider citing our paper 💕:
 
 ## Acknowledgement
 This repo borrows some data and codes from [SAT](https://github.com/declare-lab/SAT) and [USB](https://github.com/microsoft/Semi-supervised-learning). We appreciate their great works. <br>
-Besides, welcome to check out our other work in semi-superivsed learning: [DeCrisisMB](https://github.com/HenryPengZou/DeCrisisMB)!
+Besides, welcome to check out our other work on semi-supervised learning: [DeCrisisMB](https://github.com/HenryPengZou/DeCrisisMB)!
