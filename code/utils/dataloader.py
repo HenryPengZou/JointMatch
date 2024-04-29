@@ -54,15 +54,15 @@ class MyCollator(object):
         labels = torch.LongTensor(labels) - 1
         if sents_aug1 is not None:
             # further add stochastic synoym replacement augmentation
-            sents_aug1 = [naw.SynonymAug(aug_src='wordnet', aug_p=0.05).augment(sent)[0] for sent in sents_aug1]
+            sents_aug1 = [naw.SynonymAug(aug_src='wordnet', aug_p=0.05).augment(str(sent))[0] for sent in sents_aug1]
             tokenized_aug1 = self.tokenizer(sents_aug1, padding=True, truncation='longest_first', max_length=255, return_tensors='pt')
         else:
             # add stochastic synoym replacement augmentation
-            sents_aug1 = [naw.SynonymAug(aug_src='wordnet', aug_p=0.05).augment(sent)[0] for sent in sents]
+            sents_aug1 = [naw.SynonymAug(aug_src='wordnet', aug_p=0.05).augment(str(sent))[0] for sent in sents]
             tokenized_aug1 = self.tokenizer(sents_aug1, padding=True, truncation='longest_first', max_length=255, return_tensors='pt')            
         if sents_aug2 is not None: 
             # further add stochastic synoym replacement augmentation
-            sents_aug2 = [naw.SynonymAug(aug_src='wordnet', aug_p=0.05).augment(sent)[0] for sent in sents_aug2]
+            sents_aug2 = [naw.SynonymAug(aug_src='wordnet', aug_p=0.05).augment(str(sent))[0] for sent in sents_aug2]
             tokenized_aug2 = self.tokenizer(sents_aug2, padding=True, truncation='longest_first', max_length=255, return_tensors='pt')
         else:
             tokenized_aug2 = None
