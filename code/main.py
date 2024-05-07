@@ -384,6 +384,7 @@ def oneRun(log_dir, output_dir_experiment, **params):
 
                     #### -Info: for now we the last net in the group for info
                     ## Check the total and correct number of pseudo-labels
+                    batch_unlabel['label'] = batch_unlabel['label'].to(device) # assume 'device' is a GPU device
                     gt_labels_u = batch_unlabel['label'][u_psl_mask].to(device)
                     psl_total = torch.sum(u_psl_mask).item()
 
